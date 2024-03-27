@@ -1,0 +1,29 @@
+﻿<Window x:Class="Maze2d.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Maze2d"
+        mc:Ignorable="d"
+    Title="MainWindow" Height="600" Width="600" KeyDown="Window_KeyDown" KeyUp="Window_KeyUp">
+
+
+
+    <Canvas Name="canvas" HorizontalAlignment="Left" Width="561">
+        <Canvas Name="renderCanvas">
+
+        </Canvas>
+        <ComboBox x:Name="FactorySelecter" Focusable="False" ItemsSource="{Binding}" Canvas.Right="10" Canvas.Top="10" Width="120" IsReadOnly="True" SelectionChanged="ComboBox_SelectionChanged" HorizontalAlignment="Right" Canvas.Left="431" VerticalAlignment="Center" RenderTransformOrigin="0.483,0.553">
+            <ComboBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="0"/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="0"/>
+                </TransformGroup>
+            </ComboBox.RenderTransform>
+        </ComboBox>
+        <Button x:Name="ButtonRefresh" Content="Reload maze" Canvas.Left="479" Canvas.Top="37" VerticalAlignment="Center" HorizontalAlignment="Left" Click="ButtonRefresh_Click"/>
+        <!-- Other UI elements can be here -->
+    </Canvas>
+</Window>

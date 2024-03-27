@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MazeLib", "MazeLib\MazeLib.csproj", "{C4737A3D-8B90-4D22-B4F0-C2B9A5D567BB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maze2d", "Maze2d\Maze2d.csproj", "{B312795B-0ACB-4714-B9B2-AFF793692601}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maze3d", "Maze3d\Maze3d.csproj", "{1177E774-5355-4F34-AB74-46EE4680EE6C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4737A3D-8B90-4D22-B4F0-C2B9A5D567BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4737A3D-8B90-4D22-B4F0-C2B9A5D567BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4737A3D-8B90-4D22-B4F0-C2B9A5D567BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4737A3D-8B90-4D22-B4F0-C2B9A5D567BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B312795B-0ACB-4714-B9B2-AFF793692601}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B312795B-0ACB-4714-B9B2-AFF793692601}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B312795B-0ACB-4714-B9B2-AFF793692601}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B312795B-0ACB-4714-B9B2-AFF793692601}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1177E774-5355-4F34-AB74-46EE4680EE6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1177E774-5355-4F34-AB74-46EE4680EE6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1177E774-5355-4F34-AB74-46EE4680EE6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1177E774-5355-4F34-AB74-46EE4680EE6C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {53377128-6EC3-42CC-A6D0-958016050260}
+	EndGlobalSection
+EndGlobal
